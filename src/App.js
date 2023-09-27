@@ -13,7 +13,8 @@ function App() {
 
   function ifClicked() {
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${locations}&APPID=b6aa836b79cfc17bc76c7229d2274b0e`
+      //done
+      `https://api.openweathermap.org/data/2.5/weather?q=${locations}&APPID=b6aa836b79cfc17bc76c7229d2274b0e`
     )
       .then((res) => {
         if (res.ok) {
